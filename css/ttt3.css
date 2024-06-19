@@ -1,0 +1,129 @@
+
+			
+			*{
+				margin: 0px;
+				padding: 0px;
+				box-sizing: border-box;
+				
+			}
+			body{
+				background:url("../images/99.jpg")  no-repeat center;
+				background-color: #416C7C;
+			}
+			
+			
+			.rg_layout{
+				width: 800px;
+				height: 500px;
+				padding:40px 0 0 0;
+				border: 8px solid #416C7C;
+				background-color: white ;
+				margin:150px auto;  /*璁ヾiv鏍囩姘村钩灞呬腑 */
+				opacity: 0.75; /* 璁剧疆閫忔槑搴�*/
+				
+			}
+			
+			.rg_left{
+				
+				
+				float: left;
+				margin: 15px;
+			}
+			
+			.rg_center{
+				
+				
+				float: left;
+			}
+			.rg_right{
+				
+					
+					float: right;
+			}
+			.p_reg{
+				
+				color: #ffd026;
+				font-size: 20px;
+				
+			}
+			.p_en{
+				color: gray;
+				font-size: 20px;
+				
+			}
+			.rg_right > p:first-child{
+				
+				margin: 10px;
+			}
+			.rg_right p a{
+				color: pink;
+			}
+			.td_left{
+				width: 100px;
+				text-align: right;
+				height: 45px;
+				
+			}
+			.td_right{
+				padding-left: 40px;
+				
+			}
+			#username,#password,#email,#name,#phone,#birthday,#checkcode{
+				width: 251px;
+				height: 32px;
+				border: 1px solid gray;
+				border-radius: 5px;   /* 璁剧疆杈规鍦嗚*/
+				padding-left: 15px;
+			}
+			#checkcode{
+				width: 110px;
+			}
+			#img_check{
+				
+				height: 32px;
+				vertical-align: middle;  /*鍨傜洿灞呬腑*/
+			}
+			#btn_sub{
+				width: 150px;
+				height: 40px;
+				background-color: #FFD026;			
+				border: 1px solid  #FFD026;
+				border-radius: 6px;
+				/* font-weight: bold; */
+				margin-top: 20px;
+				
+			}
+
+
+
+
+
+
+
+
+
+
+#menu{
+	margin:auto;
+	width:920px; 
+	height:50px;
+	margin:0px auto;
+	border: 0px solid #F70E11; 
+}
+#menu ul{
+	margin: 20px; 
+	padding: 0px; 
+	list-style: none; /*隐藏默认列表符号*/	
+}
+#menu ul li{
+	
+	height: 60px;
+ 	line-height: 50px; /*行距*/
+	text-align:center;
+	border-right: 0px solid #999; 	
+	position:relative;
+	width:220px;/*行间*/
+	float:left;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: 900px;
+}
